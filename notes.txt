@@ -14,3 +14,18 @@ git push origin <insert branch name>
 
 - pushes your code to github, branch name will usually be main unless you are working on a team
 
+git branch <insert branch name>
+
+- creates a branch for your repo
+
+git checkout <insert branch name>
+
+- goes into that branch
+
+git checkout -b <insert branch name>
+
+- makes a new branch and goes into it
+
+git branch -d test <insert branch name>
+
+- deletes a branch

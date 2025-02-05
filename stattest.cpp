@@ -74,6 +74,8 @@ int main( )
                       cout << "  s3";
                       print_values(s3);
                       break;
+            case 'H': cout << s1.hello() << endl;
+                      break;
             case 'E': if (s1 == s2)
                           cout << "s1 and s2 are equal." << endl;
                       else
@@ -106,6 +108,7 @@ void print_menu( )
     cout << " 1  Add a new number to the 1st statistician s1" << endl;
     cout << " 2  Add a new number to the 2nd statistician s2" << endl;
     cout << " 3  Add a new number to the 3rd statistician s3" << endl;
+    cout << " H  Print the hello message" << endl;
     cout << " T  Print a table of values from the statisticians" << endl;
     cout << " E  Test whether s1 == s2" << endl;
     cout << " +  Set the third statistician s3 equal to s1 + s2" << endl;

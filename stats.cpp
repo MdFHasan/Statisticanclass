@@ -32,6 +32,12 @@ namespace main_savitch_2C
         total = 0;
     }
 
+    string statistician::hello() const
+    {
+        return "Hello World!";
+    }
+
+
     int statistician::length() const
     {
         return count;

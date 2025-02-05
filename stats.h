@@ -62,6 +62,8 @@
 #define STATS_H
 #include <iostream>
 
+using namespace std;
+
 namespace main_savitch_2C
 {
     class statistician
@@ -78,6 +80,7 @@ namespace main_savitch_2C
         double mean( ) const;
         double minimum( ) const;
         double maximum( ) const;
+        std::string hello() const;
         // FRIEND FUNCTIONS
         friend statistician operator +
             (const statistician& s1, const statistician& s2);

@@ -100,7 +100,7 @@ namespace main_savitch_2C
             result.largest = s.tinyest * scale;
         }
 
-        return result;
+        return result; 
     }
 
     bool operator ==(const statistician& s1, const statistician& s2)

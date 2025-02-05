@@ -1,0 +1,16 @@
+
+github notes
+
+
+git add .
+
+- adds all the files that has been changed 
+
+git commit -m "<insert message>"
+
+- adds a commit message for all your changes (describe what changes you made)
+
+git push origin <insert branch name>
+
+- pushes your code to github, branch name will usually be main unless you are working on a team
+
